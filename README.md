@@ -21,11 +21,13 @@ Aqui, exploramos diferentes áreas criativas, como:
 ## 🚀 Funcionalidades
 
 ### Header
+
 - Logo com nome "Kynos Studio" em gradiente dourado/azul
 - Menu de navegação fixo com efeito de transparência
 - Indicador de seção ativa baseado no scroll
 
 ### Hero Section
+
 - Título principal com efeito de digitação
 - Subtexto descritivo
 - Botão CTA chamativo com efeitos hover
@@ -33,10 +35,12 @@ Aqui, exploramos diferentes áreas criativas, como:
 - Indicador de scroll animado
 
 ### Seção Sobre
+
 - Apresentação concisa do estúdio
 - Animação de entrada ao fazer scroll
 
 ### Seção Projetos
+
 - Cards interativos para cada área de atuação:
   - **Kynos Story**: Universo de histórias e personagens
   - **Kynos Music**: Produção musical e identidade sonora
@@ -45,11 +49,13 @@ Aqui, exploramos diferentes áreas criativas, como:
 - Botões "Saiba mais" com transições suaves
 
 ### Seção Contato
+
 - Informações de contato com e-mail
 - Links para redes sociais
 - Ícones Font Awesome para melhor visual
 
 ### Footer
+
 - Copyright e informações legais
 - Design minimalista e elegante
 
@@ -98,25 +104,28 @@ kynos-studios/
 ## 🎨 Personalização
 
 ### Cores
+
 As cores podem ser facilmente alteradas editando as variáveis CSS no arquivo `styles.css`:
 
 ```css
 :root {
-  --primary-bg: #0a0a0a;        /* Fundo principal */
-  --secondary-bg: #1a1a1a;      /* Fundo secundário */
-  --accent-gold: #ffd700;       /* Dourado */
-  --accent-blue: #00d4ff;       /* Azul neon */
-  --text-primary: #ffffff;      /* Texto principal */
-  --text-secondary: #b0b0b0;    /* Texto secundário */
+  --primary-bg: #0a0a0a; /* Fundo principal */
+  --secondary-bg: #1a1a1a; /* Fundo secundário */
+  --accent-gold: #ffd700; /* Dourado */
+  --accent-blue: #00d4ff; /* Azul neon */
+  --text-primary: #ffffff; /* Texto principal */
+  --text-secondary: #b0b0b0; /* Texto secundário */
 }
 ```
 
 ### Conteúdo
+
 - Edite o texto no arquivo `index.html`
 - Atualize os links de redes sociais
 - Modifique as informações de contato
 
 ### Imagens e Ícones
+
 - Substitua os ícones Font Awesome por suas próprias imagens
 - Adicione logos personalizados
 - Inclua screenshots dos projetos
@@ -132,6 +141,7 @@ As cores podem ser facilmente alteradas editando as variáveis CSS no arquivo `s
 ## 📬 Contato
 
 Entre em contato com a gente:
+
 - **Email**: kynos.studio@gmail.com
 - **Redes sociais**: em breve
 
