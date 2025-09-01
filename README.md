@@ -1,154 +1,86 @@
 # Kynos Studio 🌌
 
-Este repositório contém a **landing page completa** do **Kynos Studio**, um estúdio criativo independente dedicado à criação de histórias, música, jogos e experiências digitais.
+**Transformando ideias em universos**
 
-## 🔥 Sobre
+O Kynos Studio é um estúdio criativo independente dedicado à criação de histórias, música, jogos e experiências digitais. Nossa missão é transformar ideias em universos completos e imersivos.
 
-O Kynos Studio nasceu com a missão de **transformar ideias em universos**.  
-Aqui, exploramos diferentes áreas criativas, como:
+## 🎯 **Projetos Principais**
 
-- **Kynos Story** → Narrativas originais e universos fictícios
-- **Kynos Music** → Produção musical e identidade sonora
-- **Kynos Network** → Experiências digitais e comunidades online
+### 🎵 **Kynos Music**
 
-## 🎨 Características do Design
+- **Izanagi** - Produtor musical principal
+- Área para futuros artistas e grupos
+- Projetos colaborativos e experimentais
 
-- **Paleta de cores**: Fundo escuro (preto/cinza grafite) com detalhes em dourado e azul neon
-- **Tipografia**: Fontes modernas (Montserrat e Poppins) para máxima legibilidade
-- **Layout**: Minimalista com bastante espaço em branco para respiração visual
-- **Responsivo**: Design adaptável para todos os dispositivos
+### 📚 **Kynos Storys**
 
-## 🚀 Funcionalidades
+- Universos de histórias e personagens
+- Worldbuilding detalhado
+- Sistema de fichas de personagens
 
-### Header
+### 🎮 **Future Projects**
 
-- Logo com nome "Kynos Studio" em gradiente dourado/azul
-- Menu de navegação fixo com efeito de transparência
-- Indicador de seção ativa baseado no scroll
+- Espaço reservado para jogos
+- Projetos de mídia
+- Novas iniciativas criativas
 
-### Hero Section
-
-- Título principal com efeito de digitação
-- Subtexto descritivo
-- Botão CTA chamativo com efeitos hover
-- Background com gradiente sutil e partículas animadas
-- Indicador de scroll animado
-
-### Seção Sobre
-
-- Apresentação concisa do estúdio
-- Animação de entrada ao fazer scroll
-
-### Seção Projetos
-
-- Cards interativos para cada área de atuação:
-  - **Kynos Story**: Universo de histórias e personagens
-  - **Kynos Music**: Produção musical e identidade sonora
-  - **Kynos Network**: Conectando ideias e pessoas
-- Efeitos hover com transformações 3D
-- Botões "Saiba mais" com transições suaves
-
-### Seção Contato
-
-- Informações de contato com e-mail
-- Links para redes sociais
-- Ícones Font Awesome para melhor visual
-
-### Footer
-
-- Copyright e informações legais
-- Design minimalista e elegante
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**: Estrutura semântica e acessível
-- **CSS3**: Estilos modernos com variáveis CSS, flexbox e grid
-- **JavaScript ES6+**: Interatividade e animações
-- **Font Awesome**: Ícones vetoriais
-- **Google Fonts**: Tipografias Montserrat e Poppins
-
-## 📱 Responsividade
-
-- Design mobile-first
-- Breakpoints para tablets e desktops
-- Menu mobile preparado para futuras implementações
-- Elementos adaptáveis para diferentes tamanhos de tela
-
-## 🎭 Animações e Efeitos
-
-- **Scroll suave** entre seções
-- **Animações de entrada** com Intersection Observer
-- **Efeito parallax** sutil no hero
-- **Transições hover** em todos os elementos interativos
-- **Cursor personalizado** com efeitos de hover
-- **Partículas animadas** no background
-- **Efeito de digitação** no título principal
-
-## 🚀 Como Usar
-
-1. **Clone ou baixe** os arquivos para seu servidor
-2. **Abra o arquivo** `index.html` em um navegador
-3. **Personalize** o conteúdo conforme necessário
-4. **Hospede** em seu servidor web
-
-## 📁 Estrutura de Arquivos
+## 🏗️ **Estrutura do Projeto**
 
 ```
-kynos-studios/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # Funcionalidades JavaScript
-└── README.md           # Este arquivo
+KynosStudio/
+│
+├── README.md                # Apresentação do estúdio
+├── LICENSE                  # Licença, se necessário
+├── assets/                  # Recursos compartilhados
+│
+├── LandingPage/             # Site oficial do estúdio
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── KynosMusic/              # Projeto de música
+│   ├── README.md
+│   ├── Izanagi/             # Perfil do produtor Izanagi
+│   │   ├── tracks/          # Áudios
+│   │   ├── stems/           # Arquivos separados de produção
+│   │   ├── visuals/         # Arte relacionada às músicas
+│   │   └── docs/            # Letras, notas, acordes, anotações
+│   ├── Artists/             # Futuro: outros artistas ou grupos
+│   └── projects/            # Projetos colaborativos ou experimentais
+│
+├── KynosStorys/             # Projeto de histórias
+│   ├── README.md
+│   ├── Characters/          # Fichas de personagens
+│   ├── Stories/             # Histórias completas ou em andamento
+│   └── Worldbuilding/       # Mapas, lore, países, culturas, regras do universo
+│
+└── FutureProjects/          # Espaço reservado para novos tipos de projeto
+    ├── KynosGames/
+    ├── KynosMedia/
+    └── (qualquer outro projeto futuro)
 ```
 
-## 🎨 Personalização
+## 🚀 **Como Navegar**
 
-### Cores
+- **`LandingPage/`** - Site oficial do estúdio
+- **`KynosMusic/`** - Todos os projetos musicais
+- **`KynosStorys/`** - Universos narrativos
+- **`assets/`** - Recursos compartilhados entre projetos
+- **`FutureProjects/`** - Novas iniciativas
 
-As cores podem ser facilmente alteradas editando as variáveis CSS no arquivo `styles.css`:
+## 🎨 **Filosofia do Estúdio**
 
-```css
-:root {
-  --primary-bg: #0a0a0a; /* Fundo principal */
-  --secondary-bg: #1a1a1a; /* Fundo secundário */
-  --accent-gold: #ffd700; /* Dourado */
-  --accent-blue: #00d4ff; /* Azul neon */
-  --text-primary: #ffffff; /* Texto principal */
-  --text-secondary: #b0b0b0; /* Texto secundário */
-}
-```
+Acreditamos que cada projeto deve ter sua própria identidade, mas manter a coesão visual e conceitual do estúdio. Cada pasta contém documentação específica e recursos organizados de forma lógica.
 
-### Conteúdo
-
-- Edite o texto no arquivo `index.html`
-- Atualize os links de redes sociais
-- Modifique as informações de contato
-
-### Imagens e Ícones
-
-- Substitua os ícones Font Awesome por suas próprias imagens
-- Adicione logos personalizados
-- Inclua screenshots dos projetos
-
-## 🌟 Recursos Avançados
-
-- **Performance otimizada** com CSS e JavaScript eficientes
-- **SEO-friendly** com estrutura HTML semântica
-- **Acessibilidade** com navegação por teclado
-- **Cross-browser** compatível
-- **Modular** para fácil manutenção
-
-## 📬 Contato
-
-Entre em contato com a gente:
+## 📬 **Contato**
 
 - **Email**: kynos.studio@gmail.com
 - **Redes sociais**: em breve
 
-## 📞 Suporte
+## 📄 **Licença**
 
-Para dúvidas ou sugestões sobre a landing page, entre em contato através do e-mail fornecido na seção de contato.
+© 2025 Kynos Studio – Todos os direitos reservados
 
 ---
 
-**© 2025 Kynos Studio** – Todos os direitos reservados
+_Transformando ideias em universos, uma história de cada vez._ ✨
