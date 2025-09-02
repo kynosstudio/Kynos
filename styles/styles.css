@@ -8,16 +8,16 @@
 :root {
     --primary-bg: #0a0a0a;
     --secondary-bg: #1a1a1a;
-    --accent-gold: #ffd700;
-    --accent-blue: #00d4ff;
+    --accent-gold: #ffcb5c;
+    --accent-blue: #d8ab74;
     --text-primary: #ffffff;
     --text-secondary: #b0b0b0;
     --text-muted: #666666;
     --border-color: #333333;
     --gradient-dark: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-    --gradient-accent: linear-gradient(135deg, #ffd700 0%, #00d4ff 100%);
-    --gradient-gold: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
-    --gradient-blue: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+    --gradient-accent: linear-gradient(135deg, #e8ddaa 0%, #f0d647 100%);
+    --gradient-gold: linear-gradient(135deg, #daca70 0%, #d8ab74 50%, #ffe600 100%);
+    --gradient-blue: linear-gradient(135deg, #020202 0%, #C79355 25%, #d8ab74 50%, #c0b54e 75%, #f1ff34 100%);
 }
 
 html {
@@ -45,7 +45,7 @@ body {
     left: 0;
     right: 0;
     background: rgba(10, 10, 10, 0.95);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
     z-index: 1000;
     padding: 1rem 0;
     border-bottom: 1px solid var(--border-color);
@@ -118,6 +118,7 @@ body {
 
 /* Hero Section */
 .hero {
+    margin-top: 100px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -133,8 +134,8 @@ body {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 80%, rgba(207, 196, 130, 0.322) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 231, 209, 0.158) 0%, transparent 50%);
     z-index: 1;
 }
 
@@ -210,7 +211,7 @@ body {
 }
 
 .cta-button.primary:hover {
-    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(252, 208, 115, 0.3);
 }
 
 .scroll-indicator {
