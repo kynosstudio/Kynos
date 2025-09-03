@@ -1,0 +1,107 @@
+/* Universo Section */
+.universo {
+	padding: 6rem 0;
+	background: var(--primary-bg);
+}
+
+.universo-content {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+/* Cada bloco de conteúdo da seção Universo */
+.universo-section {
+	background: var(--secondary-bg);
+	padding: 2.5rem 2rem;
+	border-radius: 20px;
+	border: 1px solid var(--border-color);
+	transition: all 0.3s ease;
+	position: relative;
+}
+
+.universo-section:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+	border-color: var(--accent-gold);
+}
+
+.universo-section h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--accent-gold);
+	margin-bottom: 1rem;
+	background: var(--gradient-accent);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.universo-section p,
+.universo-section ul,
+.universo-section li {
+	font-size: 1.1rem;
+	color: var(--text-secondary);
+	line-height: 1.7;
+	margin-bottom: 1rem;
+}
+
+.universo-section ul {
+	list-style: disc inside;
+	padding-left: 1rem;
+}
+
+.universo-section li {
+	margin-bottom: 0.5rem;
+}
+
+/* Destacar termos importantes */
+.universo-section strong {
+	color: var(--accent-gold);
+	font-weight: 600;
+}
+
+/* Efeito visual de “linha de separação” entre seções */
+.universo-section+.universo-section::before {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: var(--gradient-accent);
+	margin: 0 auto 2rem auto;
+	border-radius: 2px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.universo-section {
+		padding: 2rem 1.5rem;
+	}
+
+	.universo-section h3 {
+		font-size: 1.5rem;
+	}
+
+	.universo-section p,
+	.universo-section ul,
+	.universo-section li {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.universo-section {
+		padding: 1.5rem 1rem;
+	}
+
+	.universo-section h3 {
+		font-size: 1.3rem;
+	}
+
+	.universo-section p,
+	.universo-section ul,
+	.universo-section li {
+		font-size: 0.95rem;
+	}
+}

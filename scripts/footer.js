@@ -26,7 +26,7 @@ function loadFooter() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Kynos Studio – Todos os direitos reservados</p>
+                <p>&copy; <a href="modelos/estruturasCards.html">2025</a> Kynos Studio – Todos os direitos reservados</p>
             </div>
         </div>
     </footer>
