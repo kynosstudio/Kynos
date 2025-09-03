@@ -1,5 +1,6 @@
 /* Universo Section */
 .universo {
+	margin-top: 100px;
 	padding: 6rem 0;
 	background: var(--primary-bg);
 }
